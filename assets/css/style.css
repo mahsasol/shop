@@ -16,6 +16,9 @@ ul {
 a {
     text-decoration: none;
 }
+.clearfix{
+    clear: both;
+}
 /* -----header----- */
 .container {
     width: 100%;
@@ -46,12 +49,12 @@ a {
 
 .head-nav li {
     display: inline-block;
-    padding: 40px 20px;
+    padding: 38px 20px;
     float: right;
 }
 
 .login-btn {
-    background-color:#8093f1;
+    background-color: #8093f1;
     color: #fff;
     border: none;
     padding: 10px 12px;
@@ -59,4 +62,51 @@ a {
     border-radius: 5px;
     cursor: pointer;
     outline: none;
+}
+
+/* page intro */
+
+.page-intro {
+    background: rgb(247, 174, 248);
+    background: linear-gradient(90deg, rgba(247, 174, 248, 1) 0%, rgba(179, 136, 235, 1) 35%, rgba(96, 121, 247, 1) 100%);
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+.page-intro-right{
+    width: 50%;
+    height: auto ;
+    float: right;
+    text-align: right;
+}
+.page-intro-right h1{
+    color: #fff;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.page-intro-right-btns{
+    /* padding-right: 100px; */
+    margin: 0 auto;
+    width: 300px;
+}
+.page-intro-right-btn{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: 120px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+    margin-left: 8px;
+}
+.page-intro-left{
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+.page-intro-left img{
+    width: 100%;
+    height: auto;
+    
 }
