@@ -230,9 +230,7 @@ a {
 }
 
 /* most sales ---  */
-.most-sales{
-  
-}
+
 .most-sales-item{
     float: right;
     width: calc(100% / 3 );
