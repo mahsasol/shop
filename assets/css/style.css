@@ -440,9 +440,32 @@ a {
 /* Single HTML   ---------  */
 
 .breadcrumbs{
-    padding: 20px 0;
+    padding:15px 0;
     background-color: #eee;
 }
+.breadcrumbs a{
+    color: #777;
+}
+.breadcrumbs span{
+    color: #777;
+
+}
+.breadcrumbs a::after{
+    content: '';
+    display: inline-block; 
+    background: url(/assets/image/icons/left-arrow.png) no-repeat center;
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+    vertical-align: -1px;
+}
+.breadcrumbs a:hover{
+    color: #333;
+}
+.breadcrumbs span:hover{
+    color: #333;
+}
+
 
 
 
