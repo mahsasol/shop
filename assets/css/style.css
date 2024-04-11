@@ -469,17 +469,22 @@ a {
 /* single product  */
 .single-product{
     padding-top: 30px;
+    padding-bottom: 50px;
 }
 .col2-right{
     float: right;
-    width: 50%;
-    height: 500px;
-  
+    width: 30%;
+    height: auto;
 }
 .col2-left{
     float: left;
-    width: 50%;
+    width: 60%;
     height: auto;
+    
+}
+.single-product-pic{
+    width: 300px;
+    height:  auto;
     
 }
 .single-product-pic img{
@@ -487,11 +492,6 @@ a {
     height: auto;
     box-shadow: 1px 2px 3px #777;
 
-}
-.single-product-pic{
-    width: 300px;
-    height:  auto;
-    
 }
 .single-product-body h1{
     font-weight: 400;
