@@ -554,6 +554,13 @@ a {
 
 
 /* ------ contact ------  */
+.contactus{
+    padding-top: 30px;
+}
+.contactus h1{
+    margin-bottom: 20px;
+    font-size: 26px;
+}
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -572,6 +579,7 @@ a {
     padding: 10px;
     border: 1px #ccc solid;
     border-radius: 5px;
+    outline: none;
 }
 .contact-message{
     width: 100%;
@@ -587,7 +595,24 @@ a {
     padding: 10px;
     border: 1px #ccc solid;
     border-radius: 5px;
+    outline: none;
+    min-height: 150px;
 }
+.contact-btn button{
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: blue;
+    padding:10px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+
+
+
 
 
 
@@ -662,7 +687,7 @@ a {
     }
     
 }
-@media screen and (max-width:650px) {
+@media screen and (max-width:660px) {
     .newpost{
         width: 100%;
     }
