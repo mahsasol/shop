@@ -609,10 +609,48 @@ a {
     font-weight: 300;
 }
 .contactus hr{
-    border:1px solid #ccc;
-    margin-top: 20px;
-    margin-left: 15px;
-    margin-right: 15px;
+    border: 1px solid #ccc;
+    margin: 20px 15px 15px 20px;
+}
+
+/* -- contact information --- -- */
+.contact-info{
+    padding-bottom: 30px;
+}
+.contact-info h2{
+    margin-bottom: 10px;
+
+}
+.contact-info-right{
+    width: 50%;
+    height:auto;
+}
+.contact-info-right address{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+
+}
+.contact-info-right a{
+    margin-bottom: 10px;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 20px;
+}
+.contact-info-right p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+
+}
+.contact-info-left{
+    width: 50%;
+    height:auto;
+    padding: 0 100px;
+}
+.contact-info-left img{
+    width: 80%;
+    height: auto;
 }
 
 
@@ -680,7 +718,9 @@ a {
     .single-product-pic img{
         width: 300px;
     }
-
+    .contact-info-left{
+        padding: 0;
+    }
 }
 
 @media screen and (max-width:970px) {
@@ -725,7 +765,16 @@ a {
     .row{
         flex-direction: column;
     }
+    .felx-column{
+        flex-direction: column-reverse;
+    }
     .contact-inputs{
+        width: 100%;
+    }
+    .contact-info-right{
+        width: 100%;
+    }
+    .contact-info-left{
         width: 100%;
     }
 }
