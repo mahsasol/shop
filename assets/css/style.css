@@ -598,12 +598,12 @@ a {
     outline: none;
     min-height: 150px;
 }
-.contact-btn button{
+.contact-btn input{
     border: none;
     cursor: pointer;
     color: #fff;
     background-color: blue;
-    padding:10px 25px;
+    padding:10px 30px 12px 30px;
     border-radius: 5px;
     font-size: 18px;
     font-weight: 300;
