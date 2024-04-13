@@ -777,17 +777,20 @@ a {
 
 }
 .panel-sidebar-menu ul li{
-
+    margin-bottom: 15px;
 }
 .panel-sidebar-menu ul li a{
     color: #fff;
     
 }
 .panel-sidebar-menu ul li i{
-    width: 30px;
-    height:30px;
+    width: 20px;
+    height:20px;
     display: inline-block;
     background-size:  cover !important;
+    vertical-align: -6px;
+    margin-left: 5px;
+    
 }
 /* sidebar body */
 .panel-body{
