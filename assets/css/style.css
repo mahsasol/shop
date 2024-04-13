@@ -772,10 +772,9 @@ a {
 }
 .panel-sidebar-menu{
     padding-right: 50px;
+    padding-top: 50px;
 }
-.panel-sidebar-menu ul{
 
-}
 .panel-sidebar-menu ul li{
     margin-bottom: 15px;
 }
