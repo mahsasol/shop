@@ -753,7 +753,43 @@ a {
     top: 60px;
     right: 0;
     z-index: 999;
+    padding-top: 40px;
 }
+.panel-sidebar-pic{
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel-sidebar-pic img{
+    width: 70%;
+    height: 60%;
+    
+}
+.panel-sidebar-menu{
+    padding-right: 50px;
+}
+.panel-sidebar-menu ul{
+
+}
+.panel-sidebar-menu ul li{
+
+}
+.panel-sidebar-menu ul li a{
+    color: #fff;
+    
+}
+.panel-sidebar-menu ul li i{
+    width: 30px;
+    height:30px;
+    display: inline-block;
+    background-size:  cover !important;
+}
+/* sidebar body */
 .panel-body{
     padding-right: 260px;
 }
