@@ -737,6 +737,43 @@ a {
 .panel-head p{
     padding-top: 16px;
 }
+/* sidebar ---  */
+.panel-sidebar{
+    position: fixed;
+    background-color: #222;
+    height: 100%;
+    width: 240px;
+    top: 60px;
+    right: 0;
+    z-index: 999;
+}
+.panel-body{
+    padding-right: 240px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
