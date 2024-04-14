@@ -991,7 +991,7 @@ a {
 
 /* ---- category section ---  */
 .category-sec{
-    padding-top: 30px;
+    padding: 30px 0 ;
 }
 .cat-flex{
     display: flex;
@@ -1046,11 +1046,34 @@ a {
 .cat-sidebar-boxes ul li:last-child{
     margin-bottom: 20px;
 }
-
-
-
-
-
+/* pagination   */
+.pagination{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.pagination-item{
+    width:30px;
+    height: 30px;
+    box-shadow: 1px 2px 3px #bbb;
+    margin:  0 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.pagination-item-selected{
+    background-color: blue;
+    color: #fff;
+}
+.pagination-item-selected{
+    background-color: blue;
+}
+.pagination-item-selected span{
+    color: #fff;
+}
 
 
 
