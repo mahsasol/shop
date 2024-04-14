@@ -1012,7 +1012,7 @@ a {
 /* category sidebar  */
 .cat-sidebar{
     width: 25%;
-    height: 400px;
+    height: auto;
     padding:  15px;
 }
 .cat-sidebar-filter{
@@ -1020,10 +1020,13 @@ a {
     width: 100%;
     height: auto;
     box-shadow: 1px 2px 3px #bbb;
+    display: flex;
+    flex-wrap: wrap;
 }
 .cat-sidebar-boxes{
     margin: 15px;
     border-bottom: 1px solid #ccc;
+    width: 100%;
 }
 .cat-sidebar-boxes:last-child{
     border: none;
@@ -1144,6 +1147,15 @@ a {
     }
     .cat-col-post{
         width: 50%;
+    }
+    .cat-sidebar-boxes{
+        width: 50%;
+        margin: 0;
+        padding: 15px;
+        border-bottom: none;
+    }
+    .cat-sidebar{
+        height: auto;
     }
 }
 
